@@ -1,4 +1,18 @@
 import 'package:flutter/material.dart';
+import 'dart:developer' as devtools show log;
+
+extension Log on Object {
+  void log() => devtools.log(toString());
+}
+
+abstract class CanRun {
+  void run();
+}
+
+class Cat extends CanRun {
+  @override
+  void run() {}
+}
 
 void main() {
   runApp(
