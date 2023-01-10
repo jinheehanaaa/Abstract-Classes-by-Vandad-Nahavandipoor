@@ -1,15 +1,15 @@
 # Objective
 - Abstract Classes
-- Log Messages
 
 # Desc
-- mustCallSuper 
+- Log Messages
+- mustCallSuper
 - this vs. super
-- Initializer in abstract classes 
+- Constructor in abstract classes 
 
 # Tip
-- extends for just 1 inheritance
-- with for multiple inheritance
--
+- "extends" for just 1 inheritance
+- "with" for multiple inheritance
+
 # Resources
 - [Abstract Classes](https://youtu.be/uI-42qQbB_8)
